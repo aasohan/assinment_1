@@ -52,6 +52,7 @@ p{
 .orange-highlight{
     color: orange;
 }
+
 .half-width{
     width: 40%;
     float: left;
@@ -67,7 +68,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .link-button{
     text-decoration: none;
@@ -83,27 +84,52 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.experience-box{
-    box-shadow: 10px 10px 40px rgb(221, 220, 220) ;
+
+.PROJECT-box{
+    box-shadow: 10px 10px 40px rgb(150, 146, 146) ;
     border-radius: 5px;
-    height: 70%;
+    height: 30%;
     background-color: rgb(0, 250, 167);
 }
-.experience{
+.PROJECT{
     text-align: center;
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    
+    
 }
-#Full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(233, 199, 184), rgb(9, 70, 139));
-    border-image-slice: 1;
+
+
+
+.ex_pic1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
-#Baby{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+.half-width img{
+    width: 100%;
+}
+
+.livechat {
+    height: 80%;
+    width: 80%;
+}
+
+.livechat img {
+    display:block;
+    margin:0% auto;
+    height: 80%;
+    width: 80%;
+
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia img {
+    size:30px;
 }
 footer p{
     text-align: center;
